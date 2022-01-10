@@ -57,7 +57,53 @@ body {
 }
 
 /* landing page content */
-.introduction {
+.hero {
   padding-top: 20vh;
-  padding-left: 15%;
+  /* padding-left: 15%; */
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myName {
+  font-family: "Playfair Display", serif;
+  font-size: 6em;
+  background: linear-gradient(45deg, #f63443, #ff6a00);
+  background-size: 100%;
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 0.2em;
+  padding-top: 0.5em;
+  margin-bottom: -0.2em;
+}
+
+.first {
+  line-height: 0.75;
+}
+
+.last {
+  line-height: 0.75;
+  padding-left: 20px;
+}
+
+.welcome {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  padding-top: 20px;
+  width: 60%;
+}
+
+#check-out {
+  bottom: 100px;
+  position: absolute;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+#self-portrait {
+  padding: 80px;
 }
