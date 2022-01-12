@@ -35,13 +35,14 @@
     <!-- Navigation -->
     <header>
       <nav class="navbar">
-        <img
-          class="icon"
-          src="assets/images/logo512.png"
-          alt="icon"
-          height="50px"
-          width="50px"
-        />
+        <a href="#hero">
+          <img
+            class="icon"
+            src="assets/images/logo512.png"
+            alt="icon"
+            height="50px"
+            width="50px"
+        /></a>
         <ul class="nav-list">
           <li class="nav-item"><a href="#">Home</a></li>
           <li class="nav-item"><a href="#">Work</a></li>
@@ -50,9 +51,10 @@
       </nav>
     </header>
     <!-- Landing page - hero section -->
-    <section class="hero">
+    <section id="hero">
       <div class="introduction">
         <div>
+          <hr width="100px" />
           <h4 class="welcome">
             I am a UX/UI designer and front-end web developer based in Armidale
             in regional New South Wales.
@@ -63,25 +65,98 @@
           <h1 class="first">Sarah</h1>
           <h1 class="last">Ronald</h1>
         </div>
-        <div>
-          <h4 id="check-out">
+        <div class="linkDesign">
+          <a href="#projects-container" id="check-out">
             Check out some of my projects <i class="fas fa-arrow-down"></i>
-          </h4>
+          </a>
         </div>
       </div>
       <img
-        id="self-portrait"
         src="assets/images/asset1.png"
         alt="Sarah Ronald"
-        height="600px"
-        width="750px"
+        id="self-portrait"
       />
     </section>
+
     <!-- Projects/work section -->
-    <section></section>
+    <section id="projects-container">
+      <div class="project-work">
+        <div class="project-intro">
+          <h4>
+            I am interested in designing delightful, human-centered experiences
+            that shape how we interact with technology.
+          </h4>
+          <div class="linkDesign">
+            <a href="#"
+              >Learn more about me <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <a href="#"
+            ><img src="assets/images/studyco-lab.png" alt="travel-safe"
+          /></a>
+        </div>
+        <div>
+          <a href="#"
+            ><img
+              src="assets/images/lous-place.png"
+              alt="travel-safe"
+              class="portfolio-card"
+          /></a>
+        </div>
+        <div>
+          <a href="#"
+            ><img
+              src="assets/images/travelsafe.png"
+              alt="travel-safe"
+              class="portfolio-card"
+          /></a>
+        </div>
+        <div>
+          <a href="#"
+            ><img
+              src="assets/images/dese.png"
+              alt="travel-safe"
+              class="portfolio-card"
+          /></a>
+        </div>
+      </div>
+    </section>
     <!-- footer section -->
-    <!-- <footer>
-      <p>&copy; Last updated January 2022</p>
-    </footer> -->
+
+    <!-- contact me -->
+    <footer>
+      <div class="contact">
+        <h4>
+          Lets start a project together. Don't hesitate to
+          <span class="contact-me"
+            ><a
+              href="mailto:sareronald737@gmail.com?subject=hi%20Sarah"
+              class="nav-item"
+              >contact me.</a
+            ></span
+          >
+        </h4>
+        <br />
+        <hr />
+      </div>
+
+      <!-- <div class="footer-wave"> -->
+      <div class="footer-list">
+        <p class="footer-item">&copy; Last updated January 2022</p>
+        <ul class="footer-links">
+          <li class="footer-item"><a href="#">Email</a></li>
+          <li class="footer-item"><a href="#">LinkedIn</a></li>
+          <li class="footer-item"><a href="#">Github</a></li>
+          <li class="footer-item"><a href="#">Resume</a></li>
+        </ul>
+      </div>
+
+      <!-- </div> -->
+      <div>
+        <img src="assets/images/wave.png" alt="footer wave" width="100%" />
+      </div>
+    </footer>
   </body>
 </html>

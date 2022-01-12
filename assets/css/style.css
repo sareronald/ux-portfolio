@@ -46,6 +46,7 @@ body {
   letter-spacing: 0.2em;
   font-size: 1.2rem;
   margin-right: 2.5rem;
+  cursor: pointer;
 }
 
 .nav-item a:hover {
@@ -57,7 +58,7 @@ body {
 }
 
 /* landing page content */
-.hero {
+#hero {
   padding-top: 20vh;
   /* padding-left: 15%; */
   width: 75%;
@@ -104,6 +105,93 @@ body {
   font-weight: 700;
 }
 
+.linkDesign {
+  padding: 20px 0;
+}
+
+.linkDesign a {
+  text-decoration: none;
+  color: black;
+}
+
 #self-portrait {
   padding: 80px;
+}
+
+/* projects section */
+#projects-container {
+  padding-top: 150px;
+  width: 42%;
+  margin: 0 auto;
+}
+
+.project-intro {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: 00;
+  max-width: 320px;
+  text-align: right;
+}
+
+.project-work {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 1800px;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+.contact {
+  color: black;
+  /* text-decoration: none; */
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.contact-me a {
+  text-decoration: none;
+  background: linear-gradient(45deg, #f63443, #ff6a00);
+  background-size: 100%;
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  padding-top: 20px;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-item {
+  font-family: "Noto Sans", sans-serif;
+  text-transform: uppercase;
+  /* letter-spacing: 0.2em; */
+  font-size: 1rem;
+  margin-right: 2.5rem;
+  text-align: center;
+}
+
+.footer-links li {
+  padding-bottom: 20px;
+  padding: 0 20px;
+  padding-bottom: 50px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
 }
